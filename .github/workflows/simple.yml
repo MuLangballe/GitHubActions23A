@@ -7,4 +7,8 @@ jobs:
     steps:
       - name: echo a string
         run: echo "Hello World"
-      - name:
+      - name: multiline script
+        run: |
+          node -v
+          npm -v
+          mvn -v
